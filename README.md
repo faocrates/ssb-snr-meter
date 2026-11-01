@@ -1,6 +1,7 @@
 # Connectina SSB SNR Meter
 
-A software tool for estimating the audio-band signal-to-noise ratio of live receiver audio.
+An open source software tool for estimating the audio-band signal-to-noise ratio of live receiver audio.
+The source code is available at: https://github.com/faocrates/ssb-snr-meter
 
 # Usage
 
@@ -10,7 +11,7 @@ A software tool for estimating the audio-band signal-to-noise ratio of live rece
 
 ## Copyright and Licence
 
-Copyright (C) 2026 Dr Christos Bohoris. Licensed under GNU General Public License v3.0 (GPL-3.0)
+Copyright (C) 2026 Dr Christos Bohoris. Licensed under GNU General Public License v3.0 (GPL-3.0).
 
 # Glossary
 
