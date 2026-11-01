@@ -17,7 +17,7 @@ Copyright (C) 2026 Dr Christos Bohoris. Licensed under GNU General Public Licens
 ### SNR – Signal-to-Noise Ratio
 A measurement of how strong a received signal is compared with the background noise. A higher SNR generally indicates a clearer signal relative to the noise.
 
-Connectina expresses SNR in decibels (dB), using a reference noise bandwidth of 2,500 Hz.
+SSB SNR Meter expresses SNR in decibels (dB), using a reference noise bandwidth of 2,500 Hz.
 
 ### dB – Decibel
 A logarithmic unit used to express ratios between quantities. In this application, it is used to represent the signal-to-noise ratio.
@@ -37,10 +37,10 @@ A representation of how the power of a signal is distributed across different fr
 A graphical representation of the frequency content of the incoming audio. It helps visualise how the received signal's energy is distributed across the audio frequency range.
 
 ### Measurement Band
-The frequency range of the incoming audio used for the SNR measurement. Connectina uses a band from 100 Hz to 2,600 Hz.
+The frequency range of the incoming audio used for the SNR measurement. SSB SNR Meter uses a band from 100 Hz to 2,600 Hz.
 
 ### Reference Bandwidth
-The bandwidth used as the reference when expressing noise power and calculating SNR. Connectina uses 2,500 Hz, following the same reference-bandwidth convention used by WSJT-X for digital-mode SNR reporting.
+The bandwidth used as the reference when expressing noise power and calculating SNR. SSB SNR Meter uses 2,500 Hz, following the same reference-bandwidth convention used by WSJT-X for digital-mode SNR reporting.
 
 The measurement methods are different, so readings from the two applications should not be considered directly interchangeable.
 
@@ -78,5 +78,5 @@ The engine uses a Hann-windowed 4096-point FFT at 16 kHz with 50% overlap. Noise
 
 ## SNR reference bandwidth
 
-Connectina SSB SNR Meter expresses its SNR estimates using a 2,500 Hz reference noise bandwidth, following the same reference-bandwidth convention used by WSJT-X for digital-mode SNR reporting. The measurement methods differ, however, so readings should be treated as indicative rather than directly interchangeable.
+SSB SNR Meter expresses its SNR estimates using a 2,500 Hz reference noise bandwidth, following the same reference-bandwidth convention used by WSJT-X for digital-mode SNR reporting. The measurement methods differ, however, so readings should be treated as indicative rather than directly interchangeable.
 
