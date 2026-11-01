@@ -1,12 +1,13 @@
 # Connectina SSB SNR Meter
 
 An open source software tool for estimating the audio-band signal-to-noise ratio of live receiver audio.
-- https://github.com/faocrates/ssb-snr-meter
-- https://connectina.co.uk/ssb-snr-meter
+
+- `https://github.com/faocrates/ssb-snr-meter`
+- `https://connectina.co.uk/ssb-snr-meter`
 
 # Usage
 
-- On Windows run ssb-snr-meter\bin\ssb-snr-meter.bat. On Linux run ssb-snr-meter/bin/ssb-snr-meter.sh.
+- On Windows run `ssb-snr-meter\bin\ssb-snr-meter.bat`. On Linux run `ssb-snr-meter/bin/ssb-snr-meter.sh`.
 - Ensure that your transceiver and PC are connected (e.g. through a suitable USB cable) so that the audio from the transceiver is available as an audio input to the PC. 
 - Select the relevant audio input source and press start. 
 
