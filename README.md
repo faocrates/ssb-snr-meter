@@ -4,13 +4,13 @@ A software tool for estimating the audio-band signal-to-noise ratio of live rece
 
 # Usage
 
-- On Windows run SSBSNRMeter\bin\ssbsnr.bat. On Linux run SSBSNRMeter/bin/ssbsnr.sh.
+- On Windows run ssb-snr-meter\bin\ssb-snr-meter.bat. On Linux run ssb-snr-meter/bin/ssb-snr-meter.sh.
 - Ensure that your transceiver and PC are connected (e.g. through a suitable USB cable) so that the audio from the transceiver is available as an audio input to the PC. 
 - Select the relevant audio input source and press start. 
 
-## COPYRIGHT
+## Copyright and Licence
 
-Copyright (C) 2026 Dr Christos Bohoris.
+Copyright (C) 2026 Dr Christos Bohoris. Licensed under GNU General Public License v3.0 (GPL-3.0)
 
 # Glossary
 
