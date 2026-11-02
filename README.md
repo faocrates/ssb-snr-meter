@@ -5,7 +5,7 @@ An open source software tool for estimating the audio-band signal-to-noise ratio
 - `https://github.com/faocrates/ssb-snr-meter`
 - `https://connectina.co.uk/ssb-snr-meter`
 
-# Usage
+## Usage
 
 - On Windows run `ssb-snr-meter\bin\ssb-snr-meter.bat`. On Linux run `ssb-snr-meter/bin/ssb-snr-meter.sh`.
 - Ensure that your transceiver and PC are connected (e.g. through a suitable USB cable) so that the audio from the transceiver is available as an audio input to the PC. 
@@ -15,7 +15,7 @@ An open source software tool for estimating the audio-band signal-to-noise ratio
 
 Copyright (C) 2026 Dr Christos Bohoris. Licensed under GNU General Public License v3.0 (GPL-3.0).
 
-# Glossary
+## Glossary
 
 ### SNR – Signal-to-Noise Ratio
 A measurement of how strong a received signal is compared with the background noise. A higher SNR generally indicates a clearer signal relative to the noise.
@@ -82,4 +82,7 @@ The engine uses a Hann-windowed 4096-point FFT at 16 kHz with 50% overlap. Noise
 ## SNR reference bandwidth
 
 SSB SNR Meter expresses its SNR estimates using a 2,500 Hz reference noise bandwidth, following the same reference-bandwidth convention used by WSJT-X for digital-mode SNR reporting. The measurement methods differ, however, so readings should be treated as indicative rather than directly interchangeable.
+
+## Audio Connection
+SSB SNR Meter operates as a passive audio-monitoring application. It captures audio from the selected computer audio input and does not control the transceiver, initiate transmission, or generate audio output to the radio. Ensure that your transceiver and audio interface are connected and configured appropriately for your equipment.
 
